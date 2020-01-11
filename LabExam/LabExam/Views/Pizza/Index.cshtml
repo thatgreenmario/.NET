@@ -1,0 +1,32 @@
+﻿
+@model IEnumerable<BOL.Pizza>
+@if(Session["user"]==null)
+{
+    Response.Redirect("/login/index");
+}
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        @{foreach (var emp in @Model)
+            {
+                <p>@emp.PizzaId @emp.Pname  @emp.Pdis @emp.Pprice</p>
+                @Html.ActionLink("Add to Cart","create","Pizza",new { id=@emp.PizzaId},null)
+              }
+        }
+    </div>
+    <div>
+        @Html.ActionLink("View Cart", "Showcart", "Pizza")
+    </div>
+</body>
+</html>

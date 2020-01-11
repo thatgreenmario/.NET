@@ -1,0 +1,24 @@
+﻿@model IEnumerable<BOL.Pizza>
+@if (Session["user"] == null)
+{
+    Response.Redirect("/login/index");
+}
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Showcart</title>
+</head>
+<body>
+    <div>
+        <h1>Cart</h1>
+        @Session["cart"];
+    </div>
+</body>
+</html>

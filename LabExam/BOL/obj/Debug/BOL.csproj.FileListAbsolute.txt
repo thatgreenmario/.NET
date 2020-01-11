@@ -1,0 +1,10 @@
+C:\Users\dac\Desktop\gayatri\LabExam\BOL\bin\Debug\BOL.dll
+C:\Users\dac\Desktop\gayatri\LabExam\BOL\bin\Debug\BOL.pdb
+C:\Users\dac\Desktop\gayatri\LabExam\BOL\obj\Debug\BOL.csprojResolveAssemblyReference.cache
+C:\Users\dac\Desktop\gayatri\LabExam\BOL\obj\Debug\BOL.dll
+C:\Users\dac\Desktop\gayatri\LabExam\BOL\obj\Debug\BOL.pdb
+G:\LabExam\BOL\bin\Debug\BOL.dll
+G:\LabExam\BOL\bin\Debug\BOL.pdb
+G:\LabExam\BOL\obj\Debug\BOL.csprojAssemblyReference.cache
+G:\LabExam\BOL\obj\Debug\BOL.dll
+G:\LabExam\BOL\obj\Debug\BOL.pdb
